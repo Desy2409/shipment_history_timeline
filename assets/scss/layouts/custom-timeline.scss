@@ -1,0 +1,335 @@
+.title {
+    &-top {
+        margin-top: 30px;
+        color: $text-color-02;
+    }
+}
+
+.timeline {
+    &-right {
+        width: 300px;
+        &-col {
+            height: 67px;
+        }
+        &-status {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: $text-color-03;
+            width: 230px;
+            &-2 {
+                width: 243px;
+            }
+        }
+        &-status-info {
+            margin-top: -15px;
+            font-size: 0.9rem;
+            color: $text-color-01;
+            width: 263px;
+            font-weight: 450;
+            &-2 {
+                width: 242px;
+            }
+        }
+        &-country {
+            color: $text-color-01;
+            padding-left: 50px;
+            font-weight: 450;
+            width: 145px !important;
+        }
+    }
+
+    &-left {
+        width: 300px;
+        margin-left: 240px;
+        &-col {
+            width: 125px;
+            // height: 67px;
+            padding: 4px 20px 3px 20px; //padding: 7px 20px 0px 20px;
+            // margin-top: -10px;
+            // margin-top: -20px;
+            // margin-bottom: 30px;
+        }
+        &-date {
+            color: $text-color-03;
+            font-weight: 500;
+        }
+        &-time {
+            color: $text-color-01;
+            font-weight: 450;
+            font-size: 0.9rem;
+        }
+    }
+    &-step {
+        &-default {
+            top: 9px;
+            width: 14px;
+            height: 14px;
+            margin-left: -5px;
+            &-warning {
+                background-color: $color-warning;
+            }
+        }
+        &-icon {
+            width: 35px !important;
+            height: 40px !important;
+            margin-top: -5px !important;
+            margin-left: -15px !important;
+
+            color: $color-primary;
+            border: 2px solid $color-primary;
+            border-radius: 50%; /* the magic */
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            text-align: center;
+            background-color: $background-color-body;
+            margin: 0 auto 40px;
+        }
+    }
+    &-col-two {
+        margin-top: -15px; //-25px;
+    }
+    &-section {
+        &:before {
+            color: unset;
+            height: 64%;
+            top: 26px;
+        }
+        &-1:before {
+            top: 38px;
+        }
+        &-2 {
+            margin-top: -69px;
+            top: 25px;
+            &:before {
+                // top: 26px;
+            }
+        }
+        &-3 {
+            margin-top: -31px;
+            &:before {
+            }
+        }
+        &-4 {
+            margin-top: -56px;
+            &:before {
+            }
+        }
+        &-5 {
+            margin-top: -56px;
+            &:before {
+                height: 128%;
+                background-color: $color-warning;
+            }
+        }
+        &-6 {
+            margin-top: 58px;
+            &:before {
+                height: 77%;
+                background-color: $color-warning;
+            }
+        }
+        &-7 {
+            margin-top: -45px;
+            &:before {
+                height: 77%;
+            }
+        }
+        &-8 {
+            margin-top: -45px;
+            &:before {
+                height: 77%;
+            }
+        }
+        &-9 {
+            margin-top: -45px;
+            &:before {
+                height: 77%;
+            }
+        }
+        &-10 {
+            margin-top: -32px;
+            &:before {
+                height: 77%;
+                top: 38px;
+                background-color: $color-warning;
+            }
+        }
+        &-11 {
+            margin-top: -34px;
+            &:before {
+                height: 77%;
+                background-color: $color-warning;
+            }
+        }
+        &-12 {
+            margin-top: -45px;
+            &:before {
+                height: 77%;
+            }
+        }
+        &-13 {
+            margin-top: -45px;
+            &:before {
+                height: 77%;
+            }
+        }
+        &-14 {
+            margin-top: -45px;
+            &:before {
+                height: 77%;
+            }
+        }
+        &-15 {
+            margin-top: -45px;
+            &:before {
+                height: 77%;
+            }
+        }
+        &-16 {
+            margin-top: -45px;
+            &:before {
+                height: unset;
+            }
+        }
+    }
+}
+
+// @for $i from 1 through 3 {
+//     // ul:nth-child(3n + #{$i}) {
+//     .timeline-section-#{$i} {
+//         //   background-color: lighten($base-color, $i * 5%);
+//     }
+// }
+
+@media (min-width: 320px) {
+    .timeline {
+        &-step {
+            &-default {
+                margin-left: 1px !important;
+            }
+            &-icon {
+                margin-left: -10px !important;
+                // margin-
+                top: 0;
+            }
+        }
+        &-left {
+            margin-left: -140px;
+            margin-top: -136px;
+            &-time {
+                // margin-left: -118px !important;
+                // margin-top: 38px !important;
+                margin-top: 40px !important;
+                margin-left: -112px !important;
+                // margin-top: -20px !important;
+                &-icon {
+                    margin-top: 24px !important;
+                    margin-left: -112px !important;
+                }
+                &-4 {
+                    margin-left: -118px !important;
+                }
+                &-5 {
+                    margin-top: 3px !important;
+                }
+                &-6 {
+                    margin-top: 26px !important;
+                    margin-left: -115px !important;
+                }
+                &-7 {
+                    margin-left: -123px !important;
+                    margin-top: 26px !important;
+                }
+                &-8 {
+                    margin-top: 68px !important;
+                    margin-left: -117px !important;
+                }
+                &-9{
+                    margin-top: 3px !important;
+                    margin-left: -117px !important;
+                }
+                &-10{
+                    margin-top: 2px !important;
+                    margin-left: -117px !important;
+                }
+                &-11{
+                    margin-top: 67px !important;
+    margin-left: -123px !important;
+                }
+                &-12{
+                    margin-top: 5px !important;
+                    margin-left: -123px !important;
+                }
+                &-13{
+                }
+                &-14{
+                }
+                &-15{
+                }
+                &-16{
+                }
+            }
+            &-date {
+                &-2 {
+                    margin-top: -21px;
+                }
+                // &-4 {
+                //     margin-top: 1px !important;
+                //     margin-left: -18px;
+                // }
+                &-april {
+                    margin-left: -16px !important;
+                    &-27th{
+                        
+                    }
+                    &-26th{
+                        margin-top: 40px !important;
+                    }
+                    &-25th{
+                        margin-top: 38px;
+                    }
+                    &-22nd{
+                        margin-top: -19px;
+                        margin-left: -20px !important;
+                    }
+                }
+                &-5 {
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+
+    // .right {
+    //     &-status {
+    //         margin-left: 20px !important;
+    //     }
+    //     &-status-info {
+    //         margin-left: 20px !important;
+    //     }
+    // }
+    .timeline__year {
+        // margin-left: 0.00005em !important;
+    }
+
+    .left {
+        &-date {
+        }
+        &-time {
+        }
+    }
+
+    @for $i from 1 through 16 {
+        // ul:nth-child(3n + #{$i}) {
+        .timeline-section-#{$i} {
+            margin-left: 150px !important;
+            //   background-color: lighten($base-color, $i * 5%);
+        }
+    }
+
+    .timeline-section {
+        &-6 {
+            margin-top: -5px;
+        }
+    }
+}
